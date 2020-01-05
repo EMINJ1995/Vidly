@@ -1,0 +1,52 @@
+ 
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+
+navlayout
+
+////
+            <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+
+            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink("About ", "About", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Contact ", "Contact", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div class="form-inline my-2 my-lg-0">
+            @Html.ActionLink("Register", "Register", new { area = "    " }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Login", "Login", new { area = "" }, new { @class = "navbar-brand" })
+
+
+        </div>
+
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        </ul>
+    </div>
+</div>
+</div>
+class="table table-bordered table-hover">
+<div class="list-group">
+  <a class="list-group-item list-group-item-action active" href="#">
+    John smith
+  </a>
+  <a class="list-group-item list-group-item-action" href="#">
+   Mary Williams
+  </a>
+</div>
+@Html.ActionLink("Home", "Index", "Home")
+
+My greatest strength is customer service.
+I always approach with a smile to them.
+I clearly first understands their problems and I suggest a solution that makes them happy.
+I always try to give a better customer service because their experience with us makes them to visit us again.
