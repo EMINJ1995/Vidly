@@ -11,12 +11,16 @@ namespace Vidly
     public class ViewContext: DbContext
     {
         public ViewContext()
+            :base("ConnectionStringName")
         {
-
+        
         }
+
+        
          public DbSet<Customer> Customers { get; set; }
 
-         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<MembershipType> MembershipTypes { get; set; }
     
     }
 }
